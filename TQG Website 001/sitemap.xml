@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/index.html</loc>
+  <lastmod>2020-03-03T00:33:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/about.html</loc>
+  <lastmod>2020-03-03T00:33:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/our_eggs.html</loc>
+  <lastmod>2020-03-03T00:33:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/recipes.html</loc>
+  <lastmod>2020-03-03T00:33:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/news.html</loc>
+  <lastmod>2020-03-03T00:33:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/buy.html</loc>
+  <lastmod>2020-03-03T01:18:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/Quail_scotch_egg.html</loc>
+  <lastmod>2020-03-03T00:33:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://simplywordpresswebsites.co.uk/httpdocs/welcome_to_the_quail_garden.html</loc>
+  <lastmod>2020-03-03T00:33:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

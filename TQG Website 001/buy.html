@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+
+
+<!-- Header-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Get your hands on our quail eggs, whether for your family or for your resutrant, cafe or shop.">
+    <meta name="keywords" content="buy quail eggs, wholesale quail eggs, free range eggs, sustainable farming, organic">
+    <meta name="author" content="The Quail Garden">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/quail_cartoon_trans_PAP_icon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <title>The Quail Garden - Buy</title>
+</head>
+
+
+<body>
+
+
+    <!--Header-->
+    <!--Navigation-->
+
+    <div class="topnav" id="myTopnav">
+        <div> <a id="logo" href="index.html"><img src="img/Quail_garden_logo_transparent.png" height="70" width="70" alt="The quail garden logo"></a></div>
+         <div><h1> The Quail Garden</h1></div>
+         <div>
+         <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="our_eggs.html">Eggs</a>
+         <a href="recipes.html">Recipes</a>
+         <a href="news.html">News</a>
+         <a href="buy.html" class="active">Buy</a>
+         <a href="javascript:void(0);" class="icon" aria-label="Open" onclick="myFunction()">
+            <div class="fa fa-bars"></div>
+         </a>
+     </div>
+     </div>
+
+    <!--- Banner section -->
+    <div class="flex-container-banner">
+        <div>
+            <div>
+                <h2>HOW TO GET YOUR QUAIL EGGS</h2>
+                <p>
+                    Get your hands on our quail eggs by messaging us on Facebook or filling in the contact form below.
+                </p>
+            </div>
+
+            <div class="flex-inner">
+
+                <div class="button1"><a href="http://m.me/thequailgarden">MESSAGE</a></div>
+                <div class="button2"> <a href="#contact">FILL IN FORM</a> </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--Contact Form-->
+    <div class="flexbox-contact">
+        <div>
+            <h2 id="contact">Contact Form</h2>
+        </div>
+
+        <div>
+            <form action="thank_you.html" method="post">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fullname" placeholder="Your name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                <label for="phone">Phone</label>
+                <input type="number" id="phone" name="phone" placeholder="Your phone..">
+                <label for="enquiry">Subject</label>
+                <select id="enquiry" name="enquiry">
+                    <option value="...">Please choose..</option>
+                    <option value="oEnquiry">Order Enquiry</option>
+                    <option value="penquiry">Product Enquiry</option>
+                    <option value="tenquiry">Trade Enquiry</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="Message">Your Message</label>
+                <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+                <input class="button1" type="submit" value="SUBMIT">
+            </form>
+        </div>
+
+    </div>
+
+    <!--Footer -->
+    <footer>
+        <div class="flex-container-footer">
+            <div>
+                <img class="logo" src="img/Quail_garden_logo_transparent.png" height="70" width="70" alt="The quail garden logo">
+
+            </div>
+
+
+            <div class="social-icon">
+                <a href="http://facebook.com/TheQuailGarden"><img src="img/f_logo_RGB-Blue_58.png" height="25" width="2" alt="The quail garden facebook"></a>
+                <a href="http://twitter.com/QuailGarden"><img src="img/Twitter_Social_Icon_Rounded_Square_Color.png" height="25" width="2" alt="The quail garden Twitter"></a>
+                <a href="http://instagram.com/thequailgarden/"><img src="img/instagram.png" height="25" width="2" alt="The quail garden Instagram"></a>
+                <a href="http://m.me/thequailgarden"><img src="img/fbmessenger.png" height="25" width="2" alt="message the quail garden on messenger"></a>
+                <a href="mailto:thequailgarden@gmail.com"><img src="img/mail.png" height="25" width="2" alt="thequailgarden@gmail.com"></a>
+                <a href="tel:07450309861"><img src="img/phone.png" height="25" width="2" alt="07450309861"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+
+
+</html>
